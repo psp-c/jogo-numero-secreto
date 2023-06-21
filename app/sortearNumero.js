@@ -1,13 +1,13 @@
 const menorValor = 0
-const maiorValor = 100
-const numeroScreto = gararNumeroAleatorio()
+const maiorValor = 1000
+const numeroSecreto = gararNumeroAleatorio()
 
 function gararNumeroAleatorio() {
-    return parseInt(Math.random() * 100)
+    return parseInt(Math.random() * maiorValor + 1)
         
 }
 
-console.log("Número Secreto", numeroScreto)
+console.log("Número Secreto", numeroSecreto)
 
 const elementoMenorValor = document.getElementById('menor-valor')
 elementoMenorValor.innerHTML = menorValor
