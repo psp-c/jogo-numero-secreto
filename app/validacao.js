@@ -19,7 +19,7 @@ const numero = +chute
 
     }else if(numero > numeroSecreto){
         elementoChute.innerHTML += `
-        <div>O número secreto é maior <i class="fa-solid fa-circle-arrow-down"></i></div>
+        <div>O número secreto é menor <i class="fa-solid fa-circle-arrow-down"></i></div>
         `
     }else{
         elementoChute.innerHTML += `
